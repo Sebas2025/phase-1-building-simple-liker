@@ -3,7 +3,8 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-
+//Invoke function mimicServerCall()
+fetch('http://mimicServer.example.com')
 
 
 
@@ -23,3 +24,5 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
     }, 300);
   });
 }
+
+
